@@ -1,2 +1,2 @@
 import lib 
-lib.add(3,6)
+print(lib.add(3,6))
