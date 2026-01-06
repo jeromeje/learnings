@@ -150,12 +150,22 @@ Types of Constraints
 
 Constraint	Description
 
-PRIMARY KEY	Unique + Not Null
-FOREIGN KEY	References another table
-UNIQUE	Ensures unique values
-NOT NULL	Prevents NULL values
-CHECK	Validates condition
-DEFAULT	Assigns default value
+
+| Constraint | Description | Example |
+|---|---|---|
+| NOT NULL | Ensures that a column cannot have a NULL value. | Age INT NOT NULL |
+| UNIQUE | Ensures that all values in a column are different. | Email VARCHAR(255) UNIQUE |
+| PRIMARY KEY | A combination of NOT NULL and UNIQUE. Uniquely identifies each row in a table. | ID INT PRIMARY KEY |
+| FOREIGN KEY | Prevents actions that would destroy links between tables (refers to a Primary Key in another table). | FOREIGN KEY (DeptID) REFERENCES Departments(ID) |
+| CHECK | Ensures that the values in a column satisfy a specific condition. | CHECK (Age >= 18) |
+| DEFAULT | Sets a default value for a column if no value is specified. | Status VARCHAR(10) DEFAULT 'Active' |
+| CREATE INDEX | Used to create and retrieve data from the database very quickly. | CREATE INDEX idx_lastname ON Persons (LastName) |
+
+
+
+
+
+
 
 
 Constraint Example
