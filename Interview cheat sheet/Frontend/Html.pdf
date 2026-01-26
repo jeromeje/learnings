@@ -1,0 +1,255 @@
+Here’s a clean, exam-ready + interview-friendly HTML Cheat Sheet 🔥
+Perfect for freshers, full-stack learners, and quick revision.
+
+
+---
+
+🌐 HTML Cheat Sheet (Quick Reference)
+
+1️⃣ HTML Basics
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+</head>
+<body>
+  Content here
+</body>
+</html>
+
+Tag	Purpose
+
+<!DOCTYPE html>	HTML5 declaration
+<html>	Root element
+<head>	Metadata
+<title>	Page title
+<body>	Visible content
+
+
+
+---
+
+2️⃣ Text & Headings
+
+<h1>Heading</h1> to <h6>Small Heading</h6>
+<p>Paragraph</p>
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
+<strong>Important</strong>
+<em>Emphasis</em>
+
+
+---
+
+3️⃣ Links & Images
+
+<a href="https://example.com">Visit</a>
+
+<img src="image.jpg" alt="Image" width="200">
+
+Attribute	Use
+
+href	Link URL
+src	Image source
+alt	Image description
+
+
+
+---
+
+4️⃣ Lists
+
+Ordered List
+
+<ol>
+  <li>Item</li>
+</ol>
+
+Unordered List
+
+<ul>
+  <li>Item</li>
+</ul>
+
+Description List
+
+<dl>
+  <dt>HTML</dt>
+  <dd>Markup Language</dd>
+</dl>
+
+
+---
+
+5️⃣ Tables
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+  </tr>
+</table>
+
+Tag	Meaning
+
+<table>	Table
+<tr>	Row
+<th>	Header
+<td>	Data
+
+
+
+---
+
+6️⃣ Forms & Inputs
+
+<form>
+  <input type="text" placeholder="Name">
+  <input type="email">
+  <input type="password">
+  <input type="number">
+  <input type="date">
+  <input type="radio">
+  <input type="checkbox">
+  <input type="submit">
+</form>
+
+Common Input Types
+
+text, email, password, number, date, radio, checkbox, file, submit
+
+
+---
+
+7️⃣ Form Elements
+
+<textarea></textarea>
+
+<select>
+  <option>Option 1</option>
+</select>
+
+<button>Click</button>
+
+
+---
+
+8️⃣ Media Elements
+
+<audio controls>
+  <source src="audio.mp3">
+</audio>
+
+<video controls width="300">
+  <source src="video.mp4">
+</video>
+
+
+---
+
+9️⃣ Semantic HTML (VERY IMPORTANT ⭐)
+
+<header>Header</header>
+<nav>Navigation</nav>
+<section>Section</section>
+<article>Article</article>
+<aside>Sidebar</aside>
+<footer>Footer</footer>
+
+👉 Improves SEO + Accessibility
+
+
+---
+
+🔟 Block vs Inline Elements
+
+Block Elements
+
+<div> <p> <h1> <table> <form>
+
+Inline Elements
+
+<span> <a> <img> <b> <i>
+
+
+---
+
+1️⃣1️⃣ Div & Span
+
+<div>Block container</div>
+<span>Inline container</span>
+
+
+---
+
+1️⃣2️⃣ Attributes (Global)
+
+id="main"
+class="box"
+style="color:red"
+title="tooltip"
+
+
+---
+
+1️⃣3️⃣ HTML Entities
+
+Entity	Symbol
+
+&lt;	<
+&gt;	>
+&nbsp;	Space
+&copy;	©
+
+
+
+---
+
+1️⃣4️⃣ Comments
+
+<!-- This is a comment -->
+
+
+---
+
+1️⃣5️⃣ HTML Best Practices
+
+✅ Use semantic tags
+✅ Always use alt for images
+✅ Proper indentation
+✅ Avoid inline CSS
+✅ Use lowercase tags
+
+
+---
+
+🎯 HTML Interview One-Liners
+
+HTML → Structure of web pages
+
+CSS → Styling
+
+JS → Functionality
+
+Semantic HTML → Meaningful tags
+
+DOCTYPE → Tells browser HTML version
+
+
+
+---
+
+🚀 Want More?
+
+I can provide: ✔️ HTML + CSS Cheat Sheet
+✔️ HTML Interview Questions (100+)
+✔️ HTML Practice Tasks with Answers
+✔️ HTML → React Mapping Guide
+
+Just tell me 👍
