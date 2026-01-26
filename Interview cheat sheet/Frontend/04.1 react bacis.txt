@@ -1,0 +1,268 @@
+Here’s a clean, exam-ready + interview-friendly React Cheat Sheet 🔥
+Perfect for React, MERN, and full-stack preparation.
+
+
+---
+
+⚛️ React Cheat Sheet (Quick Reference)
+
+
+---
+
+1️⃣ What is React?
+
+JavaScript library for building UI
+
+Component-based
+
+Virtual DOM
+
+One-way data binding
+
+
+
+---
+
+2️⃣ Create React App / Vite
+
+npx create-react-app myapp
+cd myapp
+npm start
+
+npm create vite@latest myapp
+cd myapp
+npm install
+npm run dev
+
+
+---
+
+3️⃣ React Component
+
+Functional Component ⭐
+
+function App() {
+  return <h1>Hello React</h1>;
+}
+export default App;
+
+
+---
+
+4️⃣ JSX Basics
+
+const name = "John";
+<h1>Hello {name}</h1>
+
+✔️ JSX = HTML + JS
+✔️ Only one parent element
+
+
+---
+
+5️⃣ Props
+
+function User(props) {
+  return <h2>{props.name}</h2>;
+}
+
+// Usage
+<User name="Alex" />
+
+
+---
+
+6️⃣ State (useState) ⭐⭐⭐
+
+import { useState } from "react";
+
+const Counter = () => {
+  const [count, setCount] = useState(0);
+
+  return (
+    <button onClick={() => setCount(count + 1)}>
+      {count}
+    </button>
+  );
+};
+
+
+---
+
+7️⃣ Event Handling
+
+<button onClick={handleClick}>Click</button>
+
+
+---
+
+8️⃣ Conditional Rendering
+
+{isLoggedIn ? <Home /> : <Login />}
+
+
+---
+
+9️⃣ Lists & Keys
+
+users.map(user => (
+  <li key={user.id}>{user.name}</li>
+))
+
+
+---
+
+🔟 Forms & Controlled Inputs
+
+const [name, setName] = useState("");
+
+<input
+  value={name}
+  onChange={e => setName(e.target.value)}
+/>
+
+
+---
+
+1️⃣1️⃣ useEffect ⭐⭐⭐
+
+import { useEffect } from "react";
+
+useEffect(() => {
+  console.log("Component Mounted");
+}, []);
+
+Dependency	Behavior
+
+[]	Runs once
+[state]	On state change
+none	Every render
+
+
+
+---
+
+1️⃣2️⃣ React Fragment
+
+<>
+  <h1>Title</h1>
+  <p>Text</p>
+</>
+
+
+---
+
+1️⃣3️⃣ Styling in React
+
+// Inline
+<h1 style={{ color: "red" }}>
+
+// CSS
+import "./style.css";
+
+// Conditional
+className={isActive ? "on" : "off"}
+
+
+---
+
+1️⃣4️⃣ Lifting State Up
+
+// Parent manages state
+// Child updates it via props
+
+
+---
+
+1️⃣5️⃣ useContext
+
+const ThemeContext = createContext();
+
+<ThemeContext.Provider value="dark">
+  <App />
+</ThemeContext.Provider>
+
+
+---
+
+1️⃣6️⃣ useRef
+
+const inputRef = useRef();
+
+inputRef.current.focus();
+
+
+---
+
+1️⃣7️⃣ React Router ⭐⭐⭐
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+<BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/login" element={<Login />} />
+  </Routes>
+</BrowserRouter>
+
+
+---
+
+1️⃣8️⃣ API Call (Fetch / Axios)
+
+useEffect(() => {
+  fetch(url)
+    .then(res => res.json())
+    .then(data => setData(data));
+}, []);
+
+
+---
+
+1️⃣9️⃣ Props vs State
+
+Props	State
+
+Read-only	Mutable
+Passed to child	Local
+Controlled by parent	Controlled by component
+
+
+
+---
+
+2️⃣0️⃣ React Interview One-Liners
+
+JSX → HTML inside JS
+
+State → Component data
+
+Props → Pass data
+
+Virtual DOM → Efficient updates
+
+Hooks → Functions for state & lifecycle
+
+
+
+---
+
+⭐ Must-Know Hooks
+
+✔️ useState
+✔️ useEffect
+✔️ useContext
+✔️ useRef
+✔️ useReducer
+
+
+---
+
+🚀 Want Next?
+
+I can give you: ✔️ React Interview Questions (150+)
+✔️ React Hooks Deep Cheat Sheet
+✔️ React Mini Projects (CRUD, Auth, API)
+✔️ React + Django / MERN Full Stack Guide
+
+Just tell me 👍
